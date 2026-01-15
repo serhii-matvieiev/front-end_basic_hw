@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;        
+    display: flex;            
+    justify-content: center;  
+    align-items: center;      
+    background: #202020; 
+}  
+
+.center{
+    width: 500px;
+    height: 656px;
+    background: #fff;
+    position: relative;
+}
+
+.tabs{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;             
+    margin-top: 52px;
+    gap: 12px;
+    font-family: "Cera Pro";                  
+    
+}
+
+.login-text{
+    color: #3D3D3D;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    
+}
+
+.divider1{
+    color: #3D3D3D;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 16px;
+}
+
+.register-text{
+    color: #46A358;
+    font-family: "Cera Pro";
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px; 
+}
+
+.subtitle{
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+
+    text-align: center; 
+    margin-top: 40px;
+    margin-bottom: 30px;  
+}
+
+.form{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    gap: 16px; 
+}
+
+.input{
+    width: 300px;
+    height: 40px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    background: #fff;
+
+    color: #A5A5A5;
+    font-family: "Cera Pro";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; 
+    
+}
+
+.button-register{
+    width: 300px;
+    height: 45px;
+    border: 0;
+    border-radius: 5px;
+    background: #46A358;
+    color: #FFF;
+    font-family: "Cera Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+
+    display: block;
+    margin: 41px auto 0;
+}
+
+.divider2{
+    margin: 36px 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;                
+    
+    color: #3D3D3D;
+    font-family: "Cera Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.divider2::before,
+.divider2::after{
+    content: "";
+    width: 97px;              
+    height: 1px;
+    background: #EAEAEA;
+}
+
+.social-btn{
+    width: 300px;             
+    height: 40px;
+    background: #fff;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    cursor: pointer;
+
+    display: flex;              
+    align-items: center;         
+    justify-content: center;     
+
+    gap: 10px;                   
+    margin: 0 auto;
+}
+
+.social-btn:first-child{
+    margin-bottom: 15px;
+}
+.social-text{
+    color: #727272;
+    text-align: center;
+    font-family: "Cera Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+.social-icon{
+    width: 20px;
+    height: 20px; 
+}
+  
+.bottom-line{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 500px;          
+    height: 10px;
+  background: #46A358;
+}
