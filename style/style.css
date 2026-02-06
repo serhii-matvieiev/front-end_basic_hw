@@ -11,30 +11,30 @@
     font-family: 'Cera Pro Regular';
     src: url('../fonts/CeraPro-Regular.eot');
     src: local('Cera Pro Regular'), local('CeraPro-Regular'),
-         url('/fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/CeraPro-Regular.woff2') format('woff2'),
-         url('/fonts/CeraPro-Regular.woff') format('woff'),
-         url('/fonts/CeraPro-Regular.ttf') format('truetype');
+         url('../fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CeraPro-Regular.woff2') format('woff2'),
+         url('../fonts/CeraPro-Regular.woff') format('woff'),
+         url('../fonts/CeraPro-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Cera Pro Medium';
-    src: url('/fonts/CeraPro-Medium.eot');
+    src: url('../fonts/CeraPro-Medium.eot');
     src: local('Cera Pro Medium'), local('CeraPro-Medium'),
-         url('/fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/CeraPro-Medium.woff2') format('woff2'),
-         url('/fonts/CeraPro-Medium.woff') format('woff'),
-         url('/fonts/CeraPro-Medium.ttf') format('truetype');
+         url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CeraPro-Medium.woff2') format('woff2'),
+         url('../fonts/CeraPro-Medium.woff') format('woff'),
+         url('../fonts/CeraPro-Medium.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'Cera Pro Bold';
-    src: url('/fonts/CeraPro-Bold.eot');
+    src: url('../fonts/CeraPro-Bold.eot');
     src: local('Cera Pro Bold'), local('CeraPro-Bold'),
-         url('./fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/CeraPro-Bold.woff2') format('woff2'),
-         url('/fonts/CeraPro-Bold.woff') format('woff'),
-         url('/fonts/CeraPro-Bold.ttf') format('truetype');
+         url('../fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CeraPro-Bold.woff2') format('woff2'),
+         url('../fonts/CeraPro-Bold.woff') format('woff'),
+         url('../fonts/CeraPro-Bold.ttf') format('truetype');
 }
 
 div.container{
@@ -99,7 +99,6 @@ div.section-content{
     gap: 169px;
 }
 p.welcome{
-    padding-left: 3px;
     color: #3D3D3D;
     font-family: "Cera Pro Regular";
     font-size: 14px;
@@ -146,14 +145,13 @@ button.section-bth{
 }
 
 .img-big{
-    width: 507px;
+    width: 450px;
     height: 450px;
     object-fit: contain;
 }
 
 .img-small{
     position: absolute;
-    top: 298px;
     left: 55px;   
-    bottom: 17px; 
+    bottom: 35px; 
 }
