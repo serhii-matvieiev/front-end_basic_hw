@@ -54,7 +54,7 @@ section.categories{
     background: #FBFBFB;  
     width: 310px;
     height: 774px;
-    padding: 14px 18px ;
+    padding: 14px 18px;
 }
 
 
@@ -157,8 +157,6 @@ div.products{
     display: flex;
     align-items: center;
     justify-content: center;
-    
-  
 }
 
 .card_foto{
@@ -205,7 +203,7 @@ div.products{
 .pag_btn{
     width: 35px;
     height: 35px;
-     border: 1px solid #E5E5E5;
+    border: 1px solid #E5E5E5;
     background: #fff;
     border-radius: 4px;
     cursor: pointer;
