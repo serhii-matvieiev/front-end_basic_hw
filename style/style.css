@@ -38,22 +38,19 @@
 }
 
 main.page{
-    margin: 170px 135px;
-    display: flex;
+    margin: 170px 135px 90px 135px;
     gap: 50px;
+    display: flex;
     align-items: flex-start;
+    min-height: calc(100vh - 170px - 90px);
 }
 
 aside.sidebar{
     flex-direction: column;
-    width: 310px;
-    flex: 0 0 310px;
 }
 
 section.categories{
     background: #FBFBFB;  
-    width: 310px;
-    height: 774px;
     padding: 14px 18px;
 }
 
@@ -70,7 +67,12 @@ ul.list_sidebar{
     font-family: "Cera Pro Regular";
     font-size: 16px;
     margin: 0 12px;
-        
+    margin-bottom: 250px;      
+}
+
+.img_sale{
+    width: 310px;
+    height: auto;
 }
 
 li.menu-item.active{
@@ -84,11 +86,9 @@ li.menu-item{
 }
 
 section.content{
-    width: 100%;
     display: flex;
     flex-direction: column;
     flex: 1;
-    min-height: 100%;
     
 }
 
@@ -109,6 +109,7 @@ ul.list_topbar{
 .li_topbar_active{
     font-family: "Cera Pro Bold"; 
     color: #46A358;
+    padding-bottom: 7px;
     border-bottom: 2px solid #46A358
 }
 
@@ -139,20 +140,16 @@ div.sort{
 }
 
 div.products{
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     gap: 70px 30px;
     justify-content: space-between;
 }
 
-.card{
-    width: 258px;
-    height: 100%;
-}
 
-.card_img{
-    width: 100%;
-    height: 300px;         
+
+.card_img{        
     background: #FBFBFB;
     display: flex;
     align-items: center;
@@ -193,16 +190,15 @@ div.products{
 }
 
 .pagination{
-    margin-top: auto;
+    margin-top:auto;
     display: flex;
-    justify-content: flex-end;  
+    justify-content: flex-end;
+    margin-top: 90px;  
     gap: 10px;
-    padding-top: 90px; 
 }
 
 .pag_btn{
-    width: 35px;
-    height: 35px;
+    padding: 10px 12px;
     border: 1px solid #E5E5E5;
     background: #fff;
     border-radius: 4px;
@@ -211,21 +207,13 @@ div.products{
     align-items: center;
     justify-content: center;
     color: #3D3D3D;
+    font-weight: 300;
     font-family: "Cera Pro Regular";
     font-size: 18px;
 }
 
-.pag_btn_active{
-    width: 35px;
-    height: 35px;
-    border: 1px solid #E5E5E5;
-    border-radius: 4px;
+.pag_btn.active{
+    font-weight: 700;
     background: #46A358;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #FFF;
-    font-family: "Cera Pro Regular";
-    font-size: 18px;
 }
