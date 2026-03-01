@@ -774,7 +774,8 @@ div.products{
 }
 .footer_bottom{
     display: flex;
-    justify-content: space-between;
+    justify-content: left;
+    gap: 165px;
     padding: 33px 23px;
     background: #FBFBFB;
 }
@@ -804,7 +805,7 @@ div.products{
     font-family: "Cera Pro Bold";
     font-size: 18px;
     line-height: 16px;
-    margin-bottom: 20xp; 
+    margin-bottom: 20px; 
 }
 
 .social{
