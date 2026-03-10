@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    border: none;
+}
+
+@font-face {
+    font-family: 'Cera Pro Regular';
+    src: url('../fonts/CeraPro-Regular.eot');
+    src: local('Cera Pro Regular'), local('CeraPro-Regular'),
+         url('../fonts/CeraPro-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CeraPro-Regular.woff2') format('woff2'),
+         url('../fonts/CeraPro-Regular.woff') format('woff'),
+         url('../fonts/CeraPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cera Pro Medium';
+    src: url('../fonts/CeraPro-Medium.eot');
+    src: local('Cera Pro Medium'), local('CeraPro-Medium'),
+         url('../fonts/CeraPro-Medium.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CeraPro-Medium.woff2') format('woff2'),
+         url('../fonts/CeraPro-Medium.woff') format('woff'),
+         url('../fonts/CeraPro-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Cera Pro Bold';
+    src: url('../fonts/CeraPro-Bold.eot');
+    src: local('Cera Pro Bold'), local('CeraPro-Bold'),
+         url('../fonts/CeraPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CeraPro-Bold.woff2') format('woff2'),
+         url('../fonts/CeraPro-Bold.woff') format('woff'),
+         url('../fonts/CeraPro-Bold.ttf') format('truetype');
+}
+
+.screen{
+    height: 800px;
+    width: auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+
+.preloader::after{
+    position: relative;
+    inset: 0;
+    margin: auto;
+    content: "";
+    display: block;
+    height: 32px;
+    width: 32px;
+    border: 4px solid;
+    border-radius: 50%;
+    border-top-color: #5FE1B3;
+    border-right-color: #a0efd2;
+    border-bottom-color: #a0efd2;
+    border-left-color: #a0efd2;
+    animation: rotating 1.1s linear infinite;
+    z-index: 5;
+}
+
+@keyframes rotating{
+  from{ transform: rotate(0deg); }
+  to{ transform: rotate(360deg); }
+}
+
+.retry-btn{
+  border: 0;
+  background: #46A358;
+  color: #fff;
+  font-family: "Cera Pro Medium";
+  font-size: 14px;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.retry-btn:hover{
+    font-family: "Cera Pro Bold";
+    filter: brightness(0.95);
+}
